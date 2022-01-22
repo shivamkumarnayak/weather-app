@@ -18,7 +18,7 @@ window.addEventListener("load",()=>{
 
             const proxy = "https://cors-anywhere.herokuapp.com/" // this is using for fix the problem of api(server not found)
 
-            const api = `${proxy}api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=6b7595aa831337cd331030dc03e1231b`;
+            const api = `${proxy}api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid= Enter your API Key`;
 
             fetch(api)
             .then((response) =>{
